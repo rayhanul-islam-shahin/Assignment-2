@@ -2,9 +2,28 @@
 
     nav {
         padding: 0 10px;
+        margin: 0 auto;
     }
     
     .D-none{
         display: none;
+    }
+
+    section {
+       flex-direction: column-reverse;
+       justify-content: right;
+       margin-bottom: 30px;
+    }
+    section div{
+        width: 100%;
+        margin-top: 30px;
+        padding: 0 20px;
+        
+    }
+    section div h1{
+        font-size: 25px;
+    }
+    section div p{
+        font-size: 14px;
     }
 }
