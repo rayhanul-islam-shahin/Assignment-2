@@ -1,0 +1,10 @@
+@media only screen and (max-width: 576px){
+
+    nav {
+        padding: 0 10px;
+    }
+    
+    .D-none{
+        display: none;
+    }
+}
