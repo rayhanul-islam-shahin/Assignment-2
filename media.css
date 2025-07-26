@@ -1,29 +1,47 @@
 @media only screen and (max-width: 576px){
 
-    nav {
-        padding: 0 10px;
-        margin: 0 auto;
-    }
-    
     .D-none{
         display: none;
     }
 
-    section {
+    /* navigation */
+
+    nav {
+        padding: 0 10px;
+        margin: 15px auto;
+    }
+
+    /* Banner section */
+
+    .banner-section {
        flex-direction: column-reverse;
        justify-content: right;
        margin-bottom: 30px;
     }
-    section div{
+    .banner-section img{
+        width: 70%;
+    }
+    .banner-section div{
         width: 100%;
         margin-top: 30px;
         padding: 0 20px;
         
     }
-    section div h1{
+    .banner-section div h1{
         font-size: 25px;
     }
-    section div p{
+    .banner-section div p{
         font-size: 14px;
     }
+
+    /* Plants section  */
+
+    .plants-section {
+        width: 300px;           
+    }
+
+  .cards {
+    grid-template-columns: repeat(2, 140px);
+    justify-content: center;    
+  }
 }
