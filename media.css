@@ -44,4 +44,26 @@
     grid-template-columns: repeat(2, 140px);
     justify-content: center;    
   }
+
+/* Plants Lover Section */
+    .paint-lover{
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center; 
+    width: 90%;
+    margin: 0px auto;
+    padding: 0;
+   }
+.lovers-text{
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+.lovers-text h1{
+    font-size: 24px;
+}
+.lovers-text ul li{
+    font-size: 14px
+}
+.ps-sec {
+    margin-top: 0;
+}
 }
