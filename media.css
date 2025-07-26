@@ -66,4 +66,23 @@
 .ps-sec {
     margin-top: 0;
 }
+.sound-section{
+    display: block;
+    
+}
+.sound-section img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+}
+
+
+.email, input, button{
+    width: 100%;
+}
+
+.email-input h1{
+    font-size: 20px;
+}
 }
