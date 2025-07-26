@@ -85,4 +85,13 @@
 .email-input h1{
     font-size: 20px;
 }
+
+footer{
+    display: block;
+}
+.foot-1,.foot-2,.foot-3,.foot-4 li{
+    margin-bottom: 20px;
+    ;
+}
+
 }
